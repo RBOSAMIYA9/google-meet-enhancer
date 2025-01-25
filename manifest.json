@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Modify Google Meet Heading",
+  "name": "Google Meet Enhancer",
   "version": "1.0",
-  "description": "A Chrome extension to modify elements on Google Meet pages, such as headings or adding fullscreen buttons to videos.",
+  "description": "Adds a fullscreen button to videos and shared screens in Google Meet, enhancing your meeting experience.",
   "permissions": ["scripting", "webNavigation"],
   "host_permissions": ["https://meet.google.com/*"],
   "background": {
