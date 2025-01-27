@@ -1,42 +1,8 @@
-// chrome.webNavigation.onCompleted.addListener(
-//     (details) => {
-//         // Inject script to modify the Google Meet landing page heading
-//         chrome.scripting.executeScript({
-//             target: { tabId: details.tabId },
-//             func: () => {
-//                 console.log("executing the script.");
-
-//                 const heading = document.querySelector("h1"); // Adjust selector based on the actual page structure
-//                 if (heading) {
-//                     heading.textContent = "Welcome to Custom Meet!";
-//                     heading.style.color = "blue"; // Optional styling
-//                 } else {
-//                     console.log("Heading not found on this page.");
-//                 }
-//                 console.log("Script executed successfully.");
-
-//             },
-//         });
-//     },
-//     { url: [{ hostEquals: "meet.google.com" }] }
-// );
 chrome.webNavigation.onCompleted.addListener(
     (details) => {
         chrome.scripting.executeScript({
             target: { tabId: details.tabId },
             func: () => {
-                console.log("Executing script on Google Meet page...");
-
-                // Modify the heading on the landing page
-                const heading = document.querySelector("h1"); // Adjust selector based on actual structure
-                if (heading) {
-                    heading.textContent = "Welcome to Custom Google Meet!";
-                    heading.style.color = "blue"; // Optional styling
-                    console.log("Heading modified successfully.");
-                } else {
-                    console.log("Heading not found on this page.");
-                }
-
                 // Function to add fullscreen button to videos
                 const addFullscreenButton = (video) => {
                     const button = document.createElement("button");
