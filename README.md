@@ -1,5 +1,9 @@
 # **Meet Fullscreen Enhancer**
 
+### Download the Extension
+[Download Meet Enhancer v0.1](https://raw.githubusercontent.com/RBOSAMIYA9/google-meet-enhancer/main/google-meet-enhancer-v0.1.zip)
+
+
 ## **Overview**  
 Meet Fullscreen Enhancer is a simple yet powerful Chrome/Edge extension that enhances your Google Meet experience. It automatically adds a "Fullscreen" button to all videos and shared screens during meetings, allowing you to easily focus on the content that matters. Whether you're watching a presentation or interacting with multiple participants, this extension gives you greater control over your viewing experience.
 
@@ -17,7 +21,7 @@ Meet Fullscreen Enhancer is a simple yet powerful Chrome/Edge extension that enh
 ## **How to Install and Use**
 
 ### **Step 1: Download the ZIP File**  
-1. Click the **[Download ZIP](/google-meet-enhancer-v0.1.zip)** link (replace this with the actual link when available).  
+1. Click the **[Download ZIP](https://raw.githubusercontent.com/RBOSAMIYA9/google-meet-enhancer/main/google-meet-enhancer-v0.1.zip)** link (replace this with the actual link when available).  
 2. Extract the contents of the ZIP file to a folder on your computer.
 
 ### **Step 2: Load the Extension in Chrome/Edge**  
